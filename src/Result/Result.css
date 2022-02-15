@@ -1,0 +1,150 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f8f8f8;
+    font-family: var(--body);
+    box-shadow: 0 0 24px rgba(20, 43, 89, 0.4);
+    border-radius: 12px;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    background: rgba(9, 81, 145, 0.55);
+    padding: 0 2rem;
+    padding-top: 0.85rem;
+    border-radius: 12px 12px 0 0;
+    height: 65px;
+}
+
+.center {
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    background: rgba(9, 81, 145, 0.75);
+    height: 335px;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.right {
+    flex: 1;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.right .arrowBack {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.right .arrowBack {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.right .arrowBack div {
+    cursor: pointer;
+}
+
+.right .arrowBack svg {
+    font-size: 33px;
+    color: #f8f8f8;
+}
+
+td {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-size: 16.5px;
+    font-family: var(--jura);
+    letter-spacing: 0.5px;
+}
+
+.col1 {
+    width: 111px;
+    font-family: var(--body);
+    color: #e0e0e0;
+    letter-spacing: 0px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.location h3 {
+    font-size: 23px;
+    letter-spacing: -0.25px;
+}
+
+.date h3 {
+    font-size: 18px;
+    letter-spacing: -0.25px;
+}
+
+.location h3:last-child {
+    color: #d0d0d0;
+    font-weight: 100;
+    margin-left: 0.5rem;
+    letter-spacing: -0.65px;
+    font-size: 23px;
+}
+
+.real {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.real img {
+    width: 75px;
+    height: 75px;
+}
+
+.real h1 {
+    font-size: 70px;
+    margin-bottom: 1rem;
+    letter-spacing: -0.1px;
+}
+
+h1 > span {
+    font-weight: 100;
+    margin-left: 0.5rem;
+    letter-spacing: -4px;
+}
+
+.line {
+    width: 1px;
+    height: 200px;
+    background: rgba(20, 43, 89, 0.25);
+}
+
+p {
+    color: rgba(255,255,255,0.5);
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: var(--jura);
+}
